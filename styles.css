@@ -1,0 +1,435 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: gray ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 'Times New Roman', Times, serif monospace 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    color: white;
+}
+#nabar {
+    height: 0;
+    width:  1;
+    background-color: rgb(37, 36, 36);
+}
+#nabar{
+      text-align: center;
+}
+
+
+#null {
+    text-align: left;
+    text-decoration: none;
+    size: 10px;
+    font-style: normal;
+    font-size: xx-large;
+    margin: 0%;
+    background-color: rgb(10, 243, 91);
+    padding: 0%;
+    width: 14%;
+}
+#login-container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 11px solid #000000;
+    border-radius: 5px;
+    background-color: rgb(45, 42, 42);
+    text-align: center;
+}
+#button {
+    background-color: #08ee27;
+    padding: right;
+}
+#input-container {
+    margin-bottom: 15px;
+}
+#avatar {
+    width: 80px;
+    border-radius: 50%;
+}
+#enter{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration-style: solid;
+}
+#folder{
+    text-align: right;
+    background-color: black;
+}
+#nu1ll{
+     text-align: center;
+     background-color: greenyellow;
+     font-size: xx-large;
+     padding: 0%;
+    
+}
+#course{
+  text-align: right;
+}
+#what{
+    text-align: center;
+}
+#pro{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+#menuTitle {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    line-height: normal;
+}
+#mainMenu {
+    background: rgba(29,38,49,0.6);
+    border: none;
+    padding: 5px;
+    border-bottom: solid 1px white;
+    word-break: break-word;
+}
+.menuItemA, .menuItemButton {
+    font-size: 14px;
+    cursor: pointer;
+}
+#menuButtons .menuItemButton {
+    color: rgb(29,38,49);
+    background: white;
+    padding: 5px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+#menuButtons .menuItemButton:hover {
+    opacity: 0.6;
+}
+@media only screen and (max-width : 800px) {
+    #mainMenu {
+        text-align: center;
+    }
+    
+    #menuTitle {
+        margin-top: 4px;
+    }
+
+    #navigationBar {
+        max-height: none;
+    }
+
+     #menuButtons .menuItemButton {
+        padding: 5px 50px;
+    }
+}
+@media only screen and (min-width : 800px) {
+    #mainMenu {
+        padding: 20px;
+    }
+
+    #mainMenu .container {
+        width: 80%;
+        left: 15%;
+    }
+
+    #menuButtons {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: white;
+        color: rgb(29,38,49);
+}
+
+#menuItems { 
+    margin-top: 10px;
+}
+
+#menuItems .menuItemA {
+    color: white;
+}
+
+
+
+#menuItems .menuItemA:hover {
+    opacity: 0.6;
+}
+.menuButton {
+    background: white;
+    color: rgb(29,38,49);
+}
+#mainMenu {
+    background: rgba(0,143,152,0.6);
+    border: none;
+    padding: 5px;
+    border-bottom: solid 1px white;
+    word-break: break-word;
+}
+
+#menuTitle {
+    font-size: 22px;
+    color: white;
+    text-transform: uppercase;
+    line-height: normal;
+}
+
+.menuItemA, .menuItemButton {
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#menuItems { 
+    margin-top: 10px;
+}
+
+#menuItems .menuItemA {
+    color: white;
+}
+
+#menuButtons .menuItemButton {
+    color: rgb(0,143,152);
+    background: white;
+    padding: 5px 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+#menuItems .menuItemA:hover {
+    opacity: 0.6;
+}
+
+#menuButtons .menuItemButton:hover {
+    opacity: 0.6;
+}
+
+.menuButton {
+    background: white;
+    color: rgb(0,143,152);
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background: white;
+        color: rgb(0,143,152);
+}
+
+
+@media only screen and (min-width : 800px) {
+    #mainMenu {
+        padding: 20px;
+    }
+
+    #mainMenu .container {
+        width: 80%;
+        left: 15%;
+    }
+
+    #menuButtons {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width : 800px) {
+    #mainMenu {
+        text-align: center;
+    }
+    
+    #menuTitle {
+        margin-top: 4px;
+    }
+
+    #navigationBar {
+        max-height: none;
+    }
+
+     #menuButtons .menuItemButton {
+        padding: 5px 50px;
+    }
+}
+
+
+#headerContent {
+    color: white;
+    overflow: hidden;
+    word-break: break-word;
+}
+
+#headerOuterRow {
+    display: flex;
+}
+
+#rightSide {
+    text-align: right;
+}
+
+#headerTitle {
+    font-size: 90px;
+}
+
+#headerSubtitle {
+    font-size: 36px;
+}
+
+#iconContainer {
+    text-align: center
+}
+
+.headerIcon {
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    font-size: 50px;
+    cursor: pointer;
+    margin: 15px;
+    transition: 0.3s;
+}
+
+.headerIcon:hover {
+    text-shadow: 2px 2px 2px rgb(0,143,152);
+    opacity: 0.4;
+}
+
+#facebook {
+    margin-top: -45px;
+}
+
+#headerButtons {
+    margin-top: 80px;
+}
+
+.headerButton {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 6px 42px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background-color: transparent;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.headerButton:hover {
+    background-color: rgba(0,143,152,0.5);
+    color: white;
+    text-decoration: none;
+}
+
+header .customTitle {
+    font-size: 36px;
+    display: block;
+}
+
+header .customParagraph {
+    font-size: 20px;
+    display: block;
+}
+
+header .customLink,
+header .customLink a {
+    color: white;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+}
+
+header .customLink:hover {
+    opacity: 0.6;
+    text-decoration: none;
+}
+
+header .customIcon {
+    font-size: 36px;
+}
+@media only screen and (max-width : 800px) {  
+    #headerTitle {
+        font-size: 48px;
+    }
+
+    #headerSubtitle {
+        font-size: 20px;
+    }
+
+    .headerButton {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    #iconContainer {
+        margin-top: 12px;
+    }
+
+    .headerIcon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }   
+
+     header .customTitle {
+        font-size: 20px;
+    }
+
+    header .customParagraph {
+        font-size: 16px;
+    }
+
+    header .customLink {
+        font-size: 16px;
+    }
+}
+
+    header {
+        background: url('img/course-WY8Rm-eNGT4-ba6Qp-dsiiN-AGvx4.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: top;
+        background-attachment: fixed;
+    }
+    #headerLogoImage {
+        position: fixed;
+        left: 3%;
+        bottom: 10px;
+        width: 200px;
+        max-width: 30%;
+        z-index: 100;
+    }
+    #back1{
+        background-image: url(file:///C:/Users/pc/Desktop/Rat%20web/imge/img102.png);
+    }
+    #web{
+        padding: 100;
+        margin: 100;
+        height: 100;
+        width: 150;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+        background-color: #333;
+        color: #fff;
+    }
+    
+    nav ul li {
+        padding: 10px;
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    nav ul li a:hover {
+        background-color: #555;
+    }
+    @media (max-width: 768px) {
+        nav ul {
+            flex-direction: column;
+        }
+    }
+    header {
+        text-align: center;
+        padding: 50px 0;
+        background-color: #0074D9;
+        color: #fff;
+    }

